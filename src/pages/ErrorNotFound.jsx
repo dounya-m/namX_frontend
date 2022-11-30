@@ -15,8 +15,10 @@ function ErrorNotFound() {
                 <p className='error_quotes'>The page your looking for is not availibale.</p>
             </div>
         </section>
-        <section>
-            <h3 className='text-center text-[20rem] font-semibold'>404</h3>
+        <section className='flex justify-center'>
+        <h3 className='text-center text-[20rem] font-semibold  drop-shadow-2xl animate-bounce  h-10'>4</h3>
+        <h3 className='text-center text-[20rem] font-semibold  drop-shadow-2xl animate-bounce h-24'>0</h3>
+        <h3 className='text-center text-[20rem] font-semibold  drop-shadow-2xl animate-bounce h-10'>4</h3>
         </section>
     </div>
   )
