@@ -16,9 +16,9 @@ function ErrorNotFound() {
             </div>
         </section>
         <section className='flex justify-center'>
-        <h3 className='text-center text-[20rem] font-semibold  drop-shadow-2xl animate-bounce  h-10'>4</h3>
-        <h3 className='text-center text-[20rem] font-semibold  drop-shadow-2xl animate-bounce h-24'>0</h3>
-        <h3 className='text-center text-[20rem] font-semibold  drop-shadow-2xl animate-bounce h-10'>4</h3>
+        <h3 className='text-center md:text-[20rem] font-semibold  drop-shadow-2xl animate-bounce  h-10'>4</h3>
+        <h3 className='text-center md:text-[20rem] font-semibold  drop-shadow-2xl animate-bounce h-24'>0</h3>
+        <h3 className='text-center md:text-[20rem] font-semibold  drop-shadow-2xl animate-bounce h-10'>4</h3>
         </section>
     </div>
   )
