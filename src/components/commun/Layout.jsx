@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './itemes/Header'
 
 function Layout({children}) {
   return (
     <main>
-      <header></header>
+      <header>
+        <Header />
+      </header>
       <div>
         <article>{children}</article>
       </div>
