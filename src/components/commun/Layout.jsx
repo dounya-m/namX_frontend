@@ -1,8 +1,14 @@
 import React from 'react'
 
-function Layout() {
+function Layout({children}) {
   return (
-    <div>Layout</div>
+    <main>
+      <header></header>
+      <div>
+        <article>{children}</article>
+      </div>
+      <footer></footer>
+    </main>
   )
 }
 
