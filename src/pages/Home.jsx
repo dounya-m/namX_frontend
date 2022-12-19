@@ -1,11 +1,12 @@
 import React from 'react'
+import Three from '../components/three/Three'
 
 function Home() {
   return (
-    <div>
-        <h1 className='text-xl '>Home</h1>
+    <div className='mt-[10rem]'>
+      <Three />
     </div>
-  )
+  );
 }
 
 export default Home
